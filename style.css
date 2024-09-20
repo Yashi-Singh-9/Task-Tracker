@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Optional: background color */
+}
+
+.task-tracker {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: slight shadow for better visibility */
+}
+
+.input-container {
+  display: flex; /* Make input and button on one line */
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+input[type="text"] {
+  flex-grow: 1; /* Make input take up remaining space */
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #ddd;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
