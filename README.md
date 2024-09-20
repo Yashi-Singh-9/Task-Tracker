@@ -27,11 +27,11 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://gitlab.com/Yashi-Singh-9/task-tracker.git
+   git clone https://github.com/Yashi-Singh-9/Task-Tracker.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd task-tracker
+   cd Task-Tracker
    ```
 3. Open `index.html` in your browser:
    ```bash
